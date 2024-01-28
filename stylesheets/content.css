@@ -1,0 +1,738 @@
+.black {font-family: "StyreneALC-Black";}
+.black-italic {font-family: "StyreneALC-BlackItalic";}
+.bold {font-family: "StyreneALC-Bold";}
+.bold-italic {font-family: "StyreneALC-BoldItalic";}
+.light {font-family: "StyreneALC-Light";}
+.light-italic {font-family: "StyreneALC-LightItalic";}
+.medium {font-family: "StyreneALC-Medium";}
+.medium-italic {font-family: "StyreneALC-MediumItalic";}
+.regular {font-family: "StyreneALC-Regular";}
+.regular-italic {font-family: "StyreneALC-RegularItalic";}
+.thin {font-family: "StyreneALC-Thin";}
+.thin-italic {font-family: "StyreneALC-ThinItalic";}
+
+.text-white{
+    color: #FFFFFF;
+}
+.text-pink{
+    color: #F80082;
+}
+.wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    width: 1440px;
+    background-color: #FFFFFF;
+}
+
+/* ПЕРВЫЙ БЛОК */
+.block-1-styrene{
+    width: 100%;
+    min-height: 807px;
+    position: relative;
+}
+.styrene-a-pic-1{
+    top: -211px;
+    left: 68px;
+}
+.styrene-a-pic-2{
+    bottom: -222px;
+    left: 42px;
+}
+.styrene-a-pic-3{
+    bottom: -174px;
+    right: -20px;
+}
+.styrene-a-pic-1,
+.styrene-a-pic-2,
+.styrene-a-pic-3,
+.glyphs-pic,
+.text{
+    position: absolute;
+}
+.styrene-text-beat{
+    top: 226px;
+    left: 119px;
+    rotate: 47deg;
+    font-size: 30px;
+}
+.styrene-text-strong{
+    top: 109px;
+    left: 773px;
+    rotate: 21deg;
+    font-size: 20px;
+}
+.styrene-text-styrene{
+    top: 288px;
+    left: 305px;
+    font-size: 130px;
+}
+.styrene-text-hit{
+    top: 238px;
+    left: 1270px;
+    rotate: -46deg;
+    font-size: 30px;
+}
+
+/* сноуборд и факел */
+.styrene-text-snow{
+    font-size: 32px;
+    bottom: 87px;
+    left: 127px;
+    rotate: 32deg;
+}
+.styrene-text-board{
+    font-size: 32px;
+    bottom: -90px;
+    left: 409px;
+    rotate: 31deg;
+}
+.styrene-text-burn{
+    font-size: 30px;
+    right: 100px;
+    bottom: 2px;
+    rotate: -20deg;
+}
+.styrene-text-till{
+    font-size: 20px;
+    right: 100px;
+    bottom: -51px;
+    rotate: -23deg;
+}
+.styrene-text-the{
+    font-size: 15px;
+    right: 91px;
+    bottom: -86px;
+    rotate: -23deg;
+}
+.styrene-text-end{
+    font-size: 10px;
+    right: 84px;
+    bottom: -115px;
+    rotate: -23deg;
+}
+
+/* ВТОРОЙ БЛОК  -мяч-кепка-ракетка-серый блок с текстом и розовым блоком*/
+.block-2-description{
+    position: relative;
+    width: 100%;
+    min-height: 664px;
+    display:flex;
+}
+.block-2-description img{
+    margin-top: -41px;
+    margin-right: 5px;
+}
+.description-text-block{
+    display: flex;
+    align-items: center;
+    max-width: 810px;
+    margin-left: 39px;
+    margin-top: 172px;
+}
+.description-text-pink-block{
+    min-width: 122px;
+    height: 100%;
+    border-radius: 23px;
+    background-color: #F80082;
+}
+.description-text-black-block{
+    display: flex;
+    align-items: center;
+    max-width: 689px;
+    max-height: 440px;
+    padding: 36px 31px 36px 0;
+    height: 100%;
+    border-radius: 0px 28px 28px 0px;
+    background-color: #4E474E;
+}
+.black-block-text{
+    max-width: 692px;
+    max-height: 368px;
+    border: 5px solid #F80082;
+    border-radius: 0px 28px 28px 0px;
+    padding: 77px 1px 92px 23px;
+    margin-left: -5px;
+    font-size: 30px;
+}
+.description-text-volleyball{
+    font-family: "Inter-BoldItalic";
+    font-size: 20px;
+    rotate: -17deg;
+    top: 68px;
+    right: 380px;
+}
+.description-text-official{
+    font-family: "Inter-ExtraBold";
+    font-size: 19px;
+    rotate: -16deg;
+    top: 162px;
+    right: 372px;
+}
+.description-text-size-and-weight{
+    font-family: "Inter-SemiBold";
+    font-size: 8px;
+    rotate: -17deg;
+    top: 184px;
+    right: 382px;
+}
+.description-text-try{
+    font-size: 20px;
+    rotate: 0.39deg;
+    top: 307px;
+    right: 74px;
+    z-index: 1;
+}
+.description-text-new{
+    font-size: 20px;
+    rotate: 0.39deg;
+    top: 327px;
+    right: 62px;
+    z-index: 1;
+}
+.description-text-boom{
+    font-size: 35px;
+    rotate: 42deg;
+    bottom: 165px;
+    right: 199px;
+}
+
+/* ТРЕТИЙ БЛОК -мяч-билет-кроссовок*/
+.block-3-publication{
+    position: relative;
+    width: 100%;
+    min-height: 325px;
+    display:flex;
+}
+.block-3-publication img{
+    margin-top: -15px;
+    margin-left: 62px;
+}
+.publication-text-swish-first{
+    font-size: 30px;
+    rotate: -17deg;
+    top: 143px;
+    left: 96px;
+}
+.publication-text-swish-second{
+    font-size: 25px;
+    rotate: -17deg;
+    top: 183px;
+    left: 113px;
+}
+.publication-text-style{
+    font-size: 21px;
+    rotate: -10deg;
+    top: 95px;
+    left: 410px;
+}
+.publication-text-outline{
+    font-size: 21px;
+    rotate: -10deg;
+    top: 65px;
+    left: 547px;
+}
+.publication-text-number{
+    font-size: 15px;
+    rotate: -10deg;
+    top: 20px;
+    left: 762px;
+}
+.publication-text-year{
+    font-size: 15px;
+    rotate: -10deg;
+    top: 142px;
+    left: 400px;
+}
+.publication-text-creator{
+    font-size: 15px;
+    rotate: -10deg;
+    top: 211px;
+    left: 414px;
+}
+.publication-text-name{
+    font-size: 35px;
+    rotate: -10deg;
+    top: 231px;
+    left: 419px;
+    color: #4E474E;
+}
+.publication-text-nike{
+    font-size: 30px;
+    rotate: -25deg;
+    top: 141px;
+    right: 130px;
+}
+
+/* ЧЕТВЕРТЫЙ БЛОК -JUST DO IT-текст в кривом контуре*/
+.block-4-beginning{
+    position: relative;
+    width: 100%;
+    min-height: 460px;
+    display:flex;
+}
+.block-4-beginning img{
+    margin-left: 30px;
+    margin-top: -26px;
+}
+.beginning-text-just,
+.beginning-text-do,
+.beginning-text-it{
+    font-size: 100px;
+}
+.beginning-text-just{
+    margin-top: 81px;
+    margin-left: 143px;
+    rotate: -20deg;
+}
+.beginning-text-do{
+    margin-top: 172px;
+    margin-left: 242px;
+    rotate: -22deg;
+}
+.beginning-text-it{
+    margin-top: 272px;
+    margin-left: 321px;
+    rotate: -20deg;
+}
+.beginning-text-Breede{
+    font-size: 30px;
+    margin-left: 650px;
+    margin-top: 125px;
+}
+
+/* ПЯТЫЙ БЛОК -сумка-буквы в квадратиках-текст с черным бордером*/
+.block-5-originality{
+    position: relative;
+    width: 100%;
+    min-height: 663px;
+}
+.block-5-originality img{
+    margin-top: -32px;
+    margin-left: 111px;
+}
+.originality-text-gym,
+.originality-text-bag{
+    font-size: 50px;
+    rotate: -9deg;
+}
+.originality-text-gym{
+    margin-top: -387px;
+    margin-left: 192px;
+}
+.originality-text-bag{
+    margin-top: -274px;
+    margin-left: 218px;
+}
+.originality-text-block{
+    max-height: 286px;
+    max-width: 699px;
+    margin-left: 51px;
+    margin-top: -116px;
+    border: 4px solid #000;
+    padding: 22px 15px;
+    font-size: 30px;
+}
+
+/* ШЕСТОЙ БЛОК -TEAM-таблица начертаний */
+.block-6-team{
+    width: 100%;
+    min-height: 900px;
+    background-color: #F80082
+}
+.team-pink-block{
+    display: flex;
+    font-size: 70px;
+    padding: 38px 0 38px 0;
+}
+.pink-block-team-1,
+.pink-block-team-2{
+    text-shadow:
+        -7px -7px 0 #000,
+         0   -7px 0 #000,
+         7px -7px 0 #000,
+         7px  0   0 #000,
+         7px  7px 0 #000,
+         0    7px 0 #000,
+        -7px  7px 0 #000000,
+        -7px  0   0 #000000;
+}
+.pink-block-team-1{
+    margin-left: 145px;
+}
+.pink-block-team-2{
+    margin-left: 465px;
+}
+.team-weight-block{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    font-size: 40px;
+    padding: 81px 55px 81px 65px;
+    background-color: #000;
+}
+.team-weight-block ul{
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+}
+
+/* БЛОК СЕДЬМОЙ -картинки-гири-карточки-таймер-кубок-медали */
+.block-7-images{
+    position: relative;
+    width: 100%;
+    max-height: 1363px;
+}
+.block-7-images img{
+    margin-top: -123px;
+    margin-left: 55px;
+}
+.images-card{
+    font-size: 150px;
+}
+.card-7{
+    top: 455px;
+    right: 227px;
+    rotate: -28deg;
+}
+.card-8{
+    top: 230px;
+    right: 100px;
+    rotate: 21deg;
+}
+.card-9{
+    top: -15px;
+    right: 156px;
+    rotate: 21deg;
+    
+}
+.card-10{
+    top: 148px;
+    right: 268px;
+    rotate: -14deg;
+}
+.images-medal-1{
+    font-size: 120px;
+    rotate: -37deg;
+    bottom: -3px;
+    right: 177px;
+}
+.images-medal-2{
+    font-size: 85px;
+    rotate: 10deg;
+    top:182px;
+    left: 653px;
+}
+.images-medal-3{
+    font-size: 70px;
+    rotate: 23deg;
+    bottom: 472px;
+    right: 136px;
+}
+.images-power-1{
+    font-size: 35px;
+    rotate: 14deg;
+    bottom: 427px;
+    right: 367px;
+}
+.images-power-2{
+    font-size: 35px;
+    rotate: -32deg;
+    bottom: 140px;
+    right: 505px;
+}
+.images-sport{
+    font-size: 32px;
+    rotate: -36deg;
+    top: 484px;
+    left: 203px;
+}
+.images-bottle{
+    font-family: "Inter-Bold";
+    font-size: 20px;
+    rotate: -35deg;
+    top: 547px;
+    left: 252px;
+}
+.images-block-kilo,
+.images-always{
+    display: flex;
+    max-width: 100px;
+    align-items: center;
+    flex-direction: column;
+}
+.images-always{
+    font-size: 37px;
+    rotate: 24deg;
+    top: 470px;
+    right: 600px;
+}
+.always-number{
+    margin-top: 3px;
+    margin-left: -10px;
+}
+.kilo-number{
+    font-size: 70px;
+}
+.kilo-kilo{
+    font-size: 30px;
+    margin-top: -25px;
+}
+.kilo-10{
+    bottom: 482px;
+    left: 183px;
+    rotate: -9deg;
+}
+.kilo-20{
+    bottom: 185px;
+    left: 477px;
+    rotate: -12deg;
+}
+.kilo-5{
+    bottom: 68px;
+    left: 187px;
+    rotate: 11deg;
+}
+
+/* БЛОК ВОСЬМОЙ -глифы-ракетки-мячи */
+.block-8-glyphs{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    min-height: 1090px;
+}
+.glyphs-pic{
+    left: -463px;
+    top: -110px;
+}
+.glyphs-gliphs{
+    font-size: 80px;
+    top: 69px;
+    left: 90px
+}
+.gliphs-1{
+    top: 373px;
+    left: 248px;
+}
+.gliphs-2{
+    top: 358px;
+    left: 363px;
+    rotate: -3deg;
+}
+.gliphs-3{
+    top: 349px;
+    left: 497px;
+}
+.gliphs-4{
+    top: 434px;
+    left: 141px;
+}
+.gliphs-5{
+    top: 429px;
+    left: 378px;
+}
+.gliphs-6{
+    top: 405px;
+    left: 563px;
+}
+.gliphs-7{
+    top: 497px;
+    left: 191px;
+    font-size: 80px;
+    font-weight: 900;
+}
+.gliphs-8{
+    top: 506px;
+    left: 323px;
+}
+.gliphs-9{
+    top: 477px;
+    left: 623px;
+    font-weight: 600;
+}
+.gliphs-10{
+    top: 547px;
+    left: 506px;
+    font-weight: 900;
+}
+.gliphs-11{
+    top: 630px;
+    left: 254px;
+}
+.gliphs-12{
+    top: 634px;
+    left: 376px;
+    font-size: 55px;
+    font-weight: 600;
+}
+.gliphs-13{
+    top: 608px;
+    left: 564px;
+}
+.gliphs-2-1{
+    top: 65px;
+    right: 402px
+}
+.gliphs-2-2{
+    top: 123px;
+    right: 525px;
+}
+.gliphs-2-3{
+    top: 123px;
+    right: 227px;
+}
+.gliphs-2-4{
+    top: 179px;
+    right: 645px;
+    font-size: 90px;
+    font-weight: bold;
+}
+.gliphs-2-5{
+    top: 187px;
+    right: 348px;
+}
+.gliphs-2-6{
+    top: 252px;
+    right: 583px;
+    font-size: 65px;
+}
+.gliphs-2-7{
+    top: 270px;
+    right: 467px;
+    font-size: 40px;
+}
+.gliphs-2-8{
+    top: 320px;
+    right: 587px;
+    font-size: 40px;
+}
+.gliphs-2-9{
+    top: 315px;
+    right: 425px;
+    font-weight: 900;
+}
+.gliphs-2-10{
+    top: 314px;
+    right: 232px;
+}
+.gliphs-2-11{
+    top: 375px;
+    right: 547px;
+}
+.gliphs-2-12{
+    top: 378px;
+    right: 358px;
+}
+.glyphs-w-1,
+.glyphs-w-2{
+    font-size: 100px;
+}
+.glyphs-w-1{
+    bottom: 308px;
+    right: 476px;
+}
+.glyphs-w-2{
+    rotate: -140deg;
+    bottom: 33px;
+    right: 228px;
+}
+
+.font-60{
+    font-size: 60px;
+}
+.font-70{
+    font-size: 70px;
+}
+
+/* БЛОК ДЕВЯТЫЙ -особенности-буквы в розовых блоках-кольцо-майка-часы-конус */
+.block-9-features{
+    position: relative;
+    width: 100%;
+    height: 1950px;
+    background-color: ;
+}
+.block-9-features img{
+    margin-top: 141px;
+    margin-left: 18px;
+}
+.features-features{
+    font-size: 80px;
+    top: 17px;
+    left: 92px;
+}
+.features-backetball{
+    font-size: 55px;
+    top: 818px;
+    left: 551px;
+}
+.features-attention{
+    bottom: 860px;
+    left: 169px;
+    font-size: 50px;
+    rotate: -30deg;
+}
+.features-go{
+    bottom: 766px;
+    left: 185px;
+    font-size: 50px;
+    rotate: -25deg;
+}
+.features-mark{
+    bottom: 687px;
+    right: 194px;
+    font-size: 40px;
+    rotate: 11deg;
+}
+.features-number-1{
+    bottom: 660px;
+    right: 150px;
+    font-size: 80px;
+    rotate: 14deg;
+}
+.features-number-23{
+    bottom: 290px;
+    right: 346px;
+    font-size: 90px;
+    rotate: 11deg;
+}
+.features-number-20{
+    bottom: 277px;
+    left: 237px;
+}
+.features-number-33{
+    bottom: 378px;
+    left: 410px;
+}
+.features-stroke{
+    font-size: 70px;
+    rotate: -30deg;
+    text-shadow:
+        -2px -2px 0 #000,
+         0   -2px 0 #000,
+         2px -2px 0 #000,
+         2px  0   0 #000,
+         2px  2px 0 #000,
+         0    2px 0 #000,
+        -2px  2px 0 #000000,
+        -2px  0   0 #000000;
+}
+
+
+.block-10-homework{
+    background-color: #000;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+}
+.homework-number{
+    margin-left: -26px;
+}
+
+
+
+
+

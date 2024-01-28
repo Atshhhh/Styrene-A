@@ -1,0 +1,69 @@
+@import 'reset.css';
+@import 'content.css';
+
+@font-face {
+    font-family: "StyreneALC-Black";
+    src: url("../fonts/StyreneALC-Black.otf")
+}
+@font-face {
+    font-family: "StyreneALC-BlackItalic";
+    src: url("../fonts/StyreneALC-BlackItalic.otf")
+}
+@font-face {
+    font-family: "StyreneALC-Bold";
+    src: url("../fonts/StyreneALC-Bold.otf")
+}
+@font-face {
+    font-family: "StyreneALC-BoldItalic";
+    src: url("../fonts/StyreneALC-BoldItalic.otf")
+}
+@font-face {
+    font-family: "StyreneALC-Light";
+    src: url("../fonts/StyreneALC-Light.otf")
+}
+@font-face {
+    font-family: "StyreneALC-LightItalic";
+    src: url("../fonts/StyreneALC-LightItalic.otf")
+}
+@font-face {
+    font-family: "StyreneALC-Medium";
+    src: url("../fonts/StyreneALC-Medium.otf")
+}
+@font-face {
+    font-family: "StyreneALC-MediumItalic";
+    src: url("../fonts/StyreneALC-MediumItalic.otf")
+}
+@font-face {
+    font-family: "StyreneALC-Regular";
+    src: url("../fonts/StyreneALC-Regular.otf")
+}
+@font-face {
+    font-family: "StyreneALC-RegularItalic";
+    src: url("../fonts/StyreneALC-RegularItalic.otf")
+}
+@font-face {
+    font-family: "StyreneALC-Thin";
+    src: url("../fonts/StyreneALC-Thin.otf")
+}
+@font-face {
+    font-family: "StyreneALC-ThinItalic";
+    src: url("../fonts/StyreneALC-ThinItalic.otf")
+}
+
+/* Inter */
+@font-face {
+    font-family: "Inter-BoldItalic";
+    src: url("../fonts/Inter/Inter-BoldItalic.otf")
+}
+@font-face {
+    font-family: "Inter-ExtraBold";
+    src: url("../fonts/Inter/Inter-ExtraBold.otf")
+}
+@font-face {
+    font-family: "Inter-SemiBold";
+    src: url("../fonts/Inter/Inter-SemiBold.otf")
+}
+@font-face {
+    font-family: "Inter-Bold";
+    src: url("../fonts/Inter/Inter-Bold.otf")
+}
